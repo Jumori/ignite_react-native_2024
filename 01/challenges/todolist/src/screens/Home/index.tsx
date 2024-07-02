@@ -64,9 +64,7 @@ export function Home() {
             <Text style={styles.createdText}>Criadas</Text>
 
             <View style={styles.counter}>
-              <Text style={styles.counterText}>
-                {tasks.filter(task => !task.checked).length}
-              </Text>
+              <Text style={styles.counterText}>{tasks.length}</Text>
             </View>
           </View>
 
